@@ -7,25 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C53C0069282455070030F31A /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C0068282455070030F31A /* SearchResultsViewController.swift */; };
+		C54ED97E2829A12D00B3493F /* CustomInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54ED97D2829A12D00B3493F /* CustomInput.swift */; };
+		C54ED9802829A14800B3493F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54ED97F2829A14800B3493F /* CustomButton.swift */; };
+		C57C6BE32828669100B3067D /* AddWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C6BE22828669100B3067D /* AddWatchViewController.swift */; };
+		C584ABC4282AF085001C2A79 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584ABC3282AF085001C2A79 /* Watch.swift */; };
+		C584ABC6282AF142001C2A79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C584ABC5282AF142001C2A79 /* CoreData.framework */; };
+		C584ABC8282AF289001C2A79 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584ABC7282AF289001C2A79 /* WatchListViewController.swift */; };
+		C584ABCA282AF775001C2A79 /* WatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584ABC9282AF775001C2A79 /* WatchCell.swift */; };
 		C589BAE52821D082005B39AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BAE42821D082005B39AE /* AppDelegate.swift */; };
 		C589BAE72821D082005B39AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BAE62821D082005B39AE /* SceneDelegate.swift */; };
-		C589BAE92821D082005B39AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BAE82821D082005B39AE /* ViewController.swift */; };
-		C589BAEC2821D082005B39AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C589BAEA2821D082005B39AE /* Main.storyboard */; };
 		C589BAEF2821D082005B39AE /* Film_Sepeti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C589BAED2821D082005B39AE /* Film_Sepeti.xcdatamodeld */; };
 		C589BAF12821D083005B39AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C589BAF02821D083005B39AE /* Assets.xcassets */; };
 		C589BAF42821D084005B39AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C589BAF22821D084005B39AE /* LaunchScreen.storyboard */; };
+		C589BB062821D2B3005B39AE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB052821D2B3005B39AE /* Extension.swift */; };
+		C589BB0B2821D31D005B39AE /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB0A2821D31D005B39AE /* AppConstants.swift */; };
+		C589BB0D2821D339005B39AE /* NetworkEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB0C2821D339005B39AE /* NetworkEnum.swift */; };
+		C589BB0F2821D429005B39AE /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB0E2821D429005B39AE /* MainTabBarViewController.swift */; };
+		C589BB112821D44B005B39AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB102821D44B005B39AE /* HomeViewController.swift */; };
+		C589BB142821D58F005B39AE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB132821D58F005B39AE /* NetworkService.swift */; };
+		C589BB162821D59B005B39AE /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB152821D59B005B39AE /* DataRequest.swift */; };
+		C589BB182821D6E7005B39AE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589BB172821D6E7005B39AE /* Movie.swift */; };
+		C58DE50E2822CC5F00647195 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DE50D2822CC5F00647195 /* HomeViewModel.swift */; };
+		C58DE5102822D1B500647195 /* NetworkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DE50F2822D1B500647195 /* NetworkExtension.swift */; };
+		C5B9E3AB2830430300623D11 /* AddWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9E3AA2830430300623D11 /* AddWatchViewModel.swift */; };
+		C5B9E3AD28305B6700623D11 /* WatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9E3AC28305B6700623D11 /* WatchListViewModel.swift */; };
+		C5DB9C0C2826FE390018391A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB9C0B2826FE390018391A /* MovieTableViewCell.swift */; };
+		C95B71C8E8282EEBF7ED2CAD /* Pods_Film_Sepeti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09652AC507A90110EBC87E9C /* Pods_Film_Sepeti.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09652AC507A90110EBC87E9C /* Pods_Film_Sepeti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Film_Sepeti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9130DF52E5C027F8ADFB597E /* Pods-Film Sepeti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Sepeti.release.xcconfig"; path = "Target Support Files/Pods-Film Sepeti/Pods-Film Sepeti.release.xcconfig"; sourceTree = "<group>"; };
+		BEC16F5FE4E5237CE6A908D0 /* Pods-Film Sepeti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Sepeti.debug.xcconfig"; path = "Target Support Files/Pods-Film Sepeti/Pods-Film Sepeti.debug.xcconfig"; sourceTree = "<group>"; };
+		C53C0068282455070030F31A /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		C54ED97D2829A12D00B3493F /* CustomInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInput.swift; sourceTree = "<group>"; };
+		C54ED97F2829A14800B3493F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C57C6BE22828669100B3067D /* AddWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWatchViewController.swift; sourceTree = "<group>"; };
+		C584ABC3282AF085001C2A79 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		C584ABC5282AF142001C2A79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C584ABC7282AF289001C2A79 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		C584ABC9282AF775001C2A79 /* WatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCell.swift; sourceTree = "<group>"; };
 		C589BAE12821D082005B39AE /* Film Sepeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Film Sepeti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C589BAE42821D082005B39AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C589BAE62821D082005B39AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C589BAE82821D082005B39AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C589BAEB2821D082005B39AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C589BAEE2821D082005B39AE /* Film_Sepeti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Film_Sepeti.xcdatamodel; sourceTree = "<group>"; };
 		C589BAF02821D083005B39AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C589BAF32821D084005B39AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C589BAF52821D084005B39AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C589BB052821D2B3005B39AE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C589BB0A2821D31D005B39AE /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		C589BB0C2821D339005B39AE /* NetworkEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnum.swift; sourceTree = "<group>"; };
+		C589BB0E2821D429005B39AE /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		C589BB102821D44B005B39AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C589BB132821D58F005B39AE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C589BB152821D59B005B39AE /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		C589BB172821D6E7005B39AE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C58DE50D2822CC5F00647195 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C58DE50F2822D1B500647195 /* NetworkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtension.swift; sourceTree = "<group>"; };
+		C5B9E3AA2830430300623D11 /* AddWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWatchViewModel.swift; sourceTree = "<group>"; };
+		C5B9E3AC28305B6700623D11 /* WatchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewModel.swift; sourceTree = "<group>"; };
+		C5DB9C0B2826FE390018391A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C584ABC6282AF142001C2A79 /* CoreData.framework in Frameworks */,
+				C95B71C8E8282EEBF7ED2CAD /* Pods_Film_Sepeti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29FEB4E1DB3FBF1F581344C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C584ABC5282AF142001C2A79 /* CoreData.framework */,
+				09652AC507A90110EBC87E9C /* Pods_Film_Sepeti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19267C54D136265A0898EC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC16F5FE4E5237CE6A908D0 /* Pods-Film Sepeti.debug.xcconfig */,
+				9130DF52E5C027F8ADFB597E /* Pods-Film Sepeti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C589BAD82821D082005B39AE = {
 			isa = PBXGroup;
 			children = (
 				C589BAE32821D082005B39AE /* Film Sepeti */,
 				C589BAE22821D082005B39AE /* Products */,
+				A19267C54D136265A0898EC1 /* Pods */,
+				29FEB4E1DB3FBF1F581344C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +122,138 @@
 		C589BAE32821D082005B39AE /* Film Sepeti */ = {
 			isa = PBXGroup;
 			children = (
-				C589BAE42821D082005B39AE /* AppDelegate.swift */,
-				C589BAE62821D082005B39AE /* SceneDelegate.swift */,
-				C589BAE82821D082005B39AE /* ViewController.swift */,
-				C589BAEA2821D082005B39AE /* Main.storyboard */,
+				C589BAFB2821D0AA005B39AE /* Common */,
+				C589BB012821D0F2005B39AE /* App */,
+				C589BB002821D0B7005B39AE /* Model */,
+				C589BAFF2821D0B4005B39AE /* View */,
+				C589BAFE2821D0B1005B39AE /* ViewModel */,
+				C589BAFD2821D0AF005B39AE /* Controller */,
+				C589BB122821D57B005B39AE /* Services */,
+				C589BAFC2821D0AC005B39AE /* Utilities */,
+				C589BB042821D25F005B39AE /* Resources */,
 				C589BAF02821D083005B39AE /* Assets.xcassets */,
 				C589BAF22821D084005B39AE /* LaunchScreen.storyboard */,
 				C589BAF52821D084005B39AE /* Info.plist */,
 				C589BAED2821D082005B39AE /* Film_Sepeti.xcdatamodeld */,
 			);
 			path = "Film Sepeti";
+			sourceTree = "<group>";
+		};
+		C589BAFB2821D0AA005B39AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB022821D1A3005B39AE /* Constants */,
+				C589BB032821D1AE005B39AE /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C589BAFC2821D0AC005B39AE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C589BAFD2821D0AF005B39AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB0E2821D429005B39AE /* MainTabBarViewController.swift */,
+				C589BB102821D44B005B39AE /* HomeViewController.swift */,
+				C53C0068282455070030F31A /* SearchResultsViewController.swift */,
+				C57C6BE22828669100B3067D /* AddWatchViewController.swift */,
+				C584ABC7282AF289001C2A79 /* WatchListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C589BAFE2821D0B1005B39AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C58DE50D2822CC5F00647195 /* HomeViewModel.swift */,
+				C5B9E3AA2830430300623D11 /* AddWatchViewModel.swift */,
+				C5B9E3AC28305B6700623D11 /* WatchListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C589BAFF2821D0B4005B39AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB9C0B2826FE390018391A /* MovieTableViewCell.swift */,
+				C54ED97D2829A12D00B3493F /* CustomInput.swift */,
+				C54ED97F2829A14800B3493F /* CustomButton.swift */,
+				C584ABC9282AF775001C2A79 /* WatchCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C589BB002821D0B7005B39AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB172821D6E7005B39AE /* Movie.swift */,
+				C584ABC3282AF085001C2A79 /* Watch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C589BB012821D0F2005B39AE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C589BAE42821D082005B39AE /* AppDelegate.swift */,
+				C589BAE62821D082005B39AE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C589BB022821D1A3005B39AE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB072821D2E0005B39AE /* App */,
+				C589BB092821D2F5005B39AE /* Enums */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C589BB032821D1AE005B39AE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB052821D2B3005B39AE /* Extension.swift */,
+				C58DE50F2822D1B500647195 /* NetworkExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C589BB042821D25F005B39AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C589BB072821D2E0005B39AE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB0A2821D31D005B39AE /* AppConstants.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C589BB092821D2F5005B39AE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB0C2821D339005B39AE /* NetworkEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C589BB122821D57B005B39AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C589BB132821D58F005B39AE /* NetworkService.swift */,
+				C589BB152821D59B005B39AE /* DataRequest.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C589BAF82821D084005B39AE /* Build configuration list for PBXNativeTarget "Film Sepeti" */;
 			buildPhases = (
+				818F9F28BDB5DE60496F0550 /* [CP] Check Pods Manifest.lock */,
 				C589BADD2821D082005B39AE /* Sources */,
 				C589BADE2821D082005B39AE /* Frameworks */,
 				C589BADF2821D082005B39AE /* Resources */,
+				8FDAA84F57178C0A513F5848 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +318,87 @@
 			files = (
 				C589BAF42821D084005B39AE /* LaunchScreen.storyboard in Resources */,
 				C589BAF12821D083005B39AE /* Assets.xcassets in Resources */,
-				C589BAEC2821D082005B39AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		818F9F28BDB5DE60496F0550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Film Sepeti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDAA84F57178C0A513F5848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Film Sepeti/Pods-Film Sepeti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Film Sepeti/Pods-Film Sepeti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Film Sepeti/Pods-Film Sepeti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C589BADD2821D082005B39AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C589BAE92821D082005B39AE /* ViewController.swift in Sources */,
+				C5DB9C0C2826FE390018391A /* MovieTableViewCell.swift in Sources */,
+				C58DE5102822D1B500647195 /* NetworkExtension.swift in Sources */,
 				C589BAEF2821D082005B39AE /* Film_Sepeti.xcdatamodeld in Sources */,
+				C589BB162821D59B005B39AE /* DataRequest.swift in Sources */,
+				C54ED9802829A14800B3493F /* CustomButton.swift in Sources */,
+				C53C0069282455070030F31A /* SearchResultsViewController.swift in Sources */,
+				C54ED97E2829A12D00B3493F /* CustomInput.swift in Sources */,
+				C589BB0D2821D339005B39AE /* NetworkEnum.swift in Sources */,
 				C589BAE52821D082005B39AE /* AppDelegate.swift in Sources */,
+				C589BB112821D44B005B39AE /* HomeViewController.swift in Sources */,
+				C589BB142821D58F005B39AE /* NetworkService.swift in Sources */,
+				C589BB0F2821D429005B39AE /* MainTabBarViewController.swift in Sources */,
+				C58DE50E2822CC5F00647195 /* HomeViewModel.swift in Sources */,
+				C584ABCA282AF775001C2A79 /* WatchCell.swift in Sources */,
+				C5B9E3AB2830430300623D11 /* AddWatchViewModel.swift in Sources */,
 				C589BAE72821D082005B39AE /* SceneDelegate.swift in Sources */,
+				C589BB062821D2B3005B39AE /* Extension.swift in Sources */,
+				C589BB182821D6E7005B39AE /* Movie.swift in Sources */,
+				C5B9E3AD28305B6700623D11 /* WatchListViewModel.swift in Sources */,
+				C589BB0B2821D31D005B39AE /* AppConstants.swift in Sources */,
+				C57C6BE32828669100B3067D /* AddWatchViewController.swift in Sources */,
+				C584ABC8282AF289001C2A79 /* WatchListViewController.swift in Sources */,
+				C584ABC4282AF085001C2A79 /* Watch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C589BAEA2821D082005B39AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C589BAEB2821D082005B39AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C589BAF22821D084005B39AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,19 +528,21 @@
 		};
 		C589BAF92821D084005B39AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC16F5FE4E5237CE6A908D0 /* Pods-Film Sepeti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H8M6HD4VMU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Film Sepeti/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,27 +550,30 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.Film-Sepeti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C589BAFA2821D084005B39AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9130DF52E5C027F8ADFB597E /* Pods-Film Sepeti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H8M6HD4VMU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Film Sepeti/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,9 +581,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.Film-Sepeti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
